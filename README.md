@@ -6,13 +6,17 @@ Very often abbreviations are used within development teams and this app helps Ma
 
 <h2>User Stories</h2>
 As a new User I would like to:
-<li>be able to understand how to navigate around the web application.</li>
-<li>be able to find information about a particular river in County Kerry.</li>
-to be able to update a particular river's information if I believe it to be inaccurate, incorrect or outdated.
-leave a review about a particular river, which is both informative and allows me to broadcast my own opinion.
-Wireframes:
-The Wireframes plan can be found in the Wireframes Folder in my github repository: My Wireframe
-Features
+<li>be able to understand how to navigate in the application.</li>
+<li>be able to find/search meaning of words and abbreviations.</li>
+<li>be able to sort fast words with alphabet.</li>
+<li>be able to create and edit words.</li>
+<li>be able to create and edir categories.</li>
+
+<h2>Wireframes</h2>
+<p>Wireframes are attached in Wireframes Folder in my github repository: Wireframes</p> 
+<p>The document contains the app structure, mobile and desktop wireframes.</p>
+
+<h2>Features</h2>
 Layout
 This is a multi-page layout, but designed with simplicity in mind. The home page displays the main river database information, below the header text which allows the user to find information very quickly without the need to have to search for it.
 
