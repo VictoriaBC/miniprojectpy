@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block content %}
+    {% if not query %}
+        <h1 class="text-center">This name is not in our DataBase.</h1>
+        <p><a href="{{ url_for('get_words') }}"> << back to Home</a></p>
+    {% else %}
+        {% for que in query %}
+            <article class="media content-section">
+                <div class="media-body">
+                    <div class="article-metadata">
+                        <h5><a class="mr-2">{{que.word_name}}</a></h5>
+                    </div>
+                    <p class="article-content">{{que.word_description}}</p>
+        <p><a href="{{ url_for('get_words') }}"> << back to Home</a></p>
+                </div>
+            </article>
+        {% endfor %}
+    {% endif %}
+{% endblock %}
