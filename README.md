@@ -1,8 +1,8 @@
 <p><h1>Milestone 3 for Code Institute - A database web application.</h1><p>
 <p><strong>MiDev Glossary</strong> app offers users such as professionals like Project Managers or Product Owners the possibility to understand their development teams better.</p>
 <p>You can find links to the application and github repository below:
-<p>The application<a href="https://tmfmdb.herokuapp.com/">live here.</a></p>
-<p>The Github link<a href="https://github.com/VictoriaBC/miniprojectpy/link">here.</a></p>
+<p>The application <a href="https://tmfmdb.herokuapp.com/">live here.</a></p>
+<p>The Github link <a href="https://github.com/VictoriaBC/miniprojectpy/">here.</a></p>
 
 <h2>UX</h2>
 Very often abbreviations are used within development teams and this app helps Managers to gather what they hear and also use this app as an internal dictionary. Developers, Designers, Marketing specialists also have a chance to help the team and create a better way of working. Users can add/edit words, also add/edit categories, they can search words and navigate according to the alphabet.
