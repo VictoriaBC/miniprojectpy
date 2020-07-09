@@ -1,7 +1,5 @@
 <p><h1>Milestone 3 for Code Institute - A database web application.</h1><p>
-
-<h2>MiDev Glossary</h2>
-This app offers users such as professionals like Project Managers or Product Owners the possibility to understand their development teams better.
+<p>MiDev Glossary app offers users such as professionals like Project Managers or Product Owners the possibility to understand their development teams better.</p>
 
 **UX**
 Users can add/ edit words, also add/edit categories. Very often abbreviations are used within development teams and this app helps Managers to gather what they hear and also use this app as an internal dictionary. Developers, Designers, Marketing specialists also have a chance to help the team and create a better way of working.
