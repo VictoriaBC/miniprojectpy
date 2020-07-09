@@ -24,7 +24,7 @@ As a new User I would like to:
 <p>This is a multi-page layout designed as minimalistic and functional as possible, also responsive and pleasing for the user. The home page displays short information about this app, search input, alphabetical navigation and accordions containing words in the clossary with their description. Each accordion can be deleted and edited.</p>
 
 <h3>Colors</h3>
-<p>Colors are taken from Sass to make the it easier to change without risking to have multiple colors of the same tone.</p>
+<p>Colors are taken from <a href="https://materializecss.com/color.html">Sass in materialize</a> to make the it easier to change without risking to have multiple colors of the same tone.</p>
 <li>Background color: #f5f5f5 grey lighten-4</li>
 <li>Primary button color: #004d40 teal darken-4</li>
 <li>Secondary button color: #26a69a teal lighten-1</li>
