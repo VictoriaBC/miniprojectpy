@@ -20,17 +20,17 @@ As a new User I would like to:
 <p>The document contains the app structure, mobile and desktop wireframes.</p>
 
 <h2>Features</h2>
-Layout
-This is a multi-page layout, but designed with simplicity in mind. The home page displays the main river database information, below the header text which allows the user to find information very quickly without the need to have to search for it.
+<h3>Layout</h3>
+<p>This is a multi-page layout designed as minimalistic and functional as possible, also responsive and pleasing for the user. The home page displays short information about this app, search input, alphabetical navigation and accordions containing words in the clossary with their description. Each accordion can be deleted and edited.</p>
 
-Buttons
-Buttons on this application are of Bootstrap 4. Big, bright and easy to use.
+<h3>Buttons</h3>
+<p>Buttons on this application are from <a href="https://materializecss.com/">Materialize</a>.</p>
 
-Font
-Two fonts used are a google fonts, called "Mansalvua" and "Amatic SC". They are visually appealing fonts, easy to read and give a nice indication that the application is based on local knowledge. Jumboton was also used from Bootstrap, and appears on the home page and the about page, and come with it's own fonts.
+<h3>Font</h3>
+<p>One font set is used from google fonts, called "Roboto". It gives a modern appeal, simplicity and most important easy to read.</p>
 
-Existing Features
-Navigation Bar - This is on the top of all the pages on the site. The left hand side has the title of the page being "Rivers of County Kerry", and when clicked, will return the user to the home page. The rest of the navigation items are aligned on the right hand side of the Nav bar. They are: "About us", "Add a new River", "Review a new river" and "Read Reviews".
+<h3>Existing Features</h3>
+<p>Header and footer - The header contains a linked to home logo, menus: Home, New Word, Manage Catergory. The footer below repeats the name of the app and the author. Both the Header and Footer are components from <a href="https://materializecss.com/">Materialize</a>.</p>
 
 Edit a river record - The Blue River Name Button (in the data table on home page). This button is in the first column of every river row in the database table in the home page. As the welcome text advises, when the user clicks on this particular button, the user is redirected to a pre-populated form, visually showing the user the already saved doucment details (the key:value pairs) of that particular river. The user is then able to alter any, all or none of the fields as the user see's fit, and can submit the form to the server, updating the document on the database. There is also an option at the bottom of the form for the user to delete the document entirely. This is in the form of a red delete button. After submit or delete, the user is redirected back to the home page, where they can visually the evidence of what they have added / deleted, appear/not appear on the river table.
 
