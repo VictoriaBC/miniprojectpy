@@ -24,7 +24,7 @@ As a new User I would like to:
 <p>This is a multi-page layout designed as minimalistic and functional as possible, also responsive and pleasing for the user. The home page displays short information about this app, search input, alphabetical navigation and accordions containing words in the clossary with their description. Each accordion can be deleted and edited.</p>
 
 <h3>Buttons</h3>
-<p>Buttons on this application are from <a href="https://materializecss.com/">Materialize</a>.</p>
+<p>Buttons in this application are from component library <a href="https://materializecss.com/">Materialize</a>.</p>
 
 <h3>Font</h3>
 <p>One font set is used from google fonts, called "Roboto". It gives a modern appeal, simplicity and most important easy to read.</p>
