@@ -13,7 +13,7 @@ As a new User I would like to:
 <li>be able to create and edir categories.</li>
 
 <h2>Wireframes</h2>
-<p>Wireframes are attached in my github repository as MiDev_Glossary_Victoria.pdf</p> 
+<p>Wireframes are attached in my github repository as <a href="https://github.com/VictoriaBC/miniprojectpy/blob/master/MiDev_Glossary_Victoria.pdf">MiDev_Glossary_Victoria.pdf</a></p> 
 <p>The document contains the app structure, mobile and desktop wireframes.</p>
 
 <h2>Features</h2>
