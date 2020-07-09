@@ -23,6 +23,13 @@ As a new User I would like to:
 <h3>Layout</h3>
 <p>This is a multi-page layout designed as minimalistic and functional as possible, also responsive and pleasing for the user. The home page displays short information about this app, search input, alphabetical navigation and accordions containing words in the clossary with their description. Each accordion can be deleted and edited.</p>
 
+<h3>Colors</h3>
+<p>Colors are taken from Sass to make the it easier to change without risking to have multiple colors of the same tone.</p>
+<li>Background color: #f5f5f5 grey lighten-4</li>
+<li>Primary button color: #004d40 teal darken-4</li>
+<li>Secondary button color: #26a69a teal lighten-1</li>
+<li>Header and Footer color: #004d40 teal darken-4</li>
+
 <h3>Buttons</h3>
 <p>Buttons in this application are from component library <a href="https://materializecss.com/">Materialize</a>.</p>
 
@@ -31,12 +38,10 @@ As a new User I would like to:
 
 <h3>Existing Features</h3>
 <p>Header and footer - The header contains a linked to home logo, menus: Home, New Word, Manage Catergory. The footer below repeats the name of the app and the author. Both the Header and Footer are components from <a href="https://materializecss.com/">Materialize</a>.</p>
-
-Edit a river record - The Blue River Name Button (in the data table on home page). This button is in the first column of every river row in the database table in the home page. As the welcome text advises, when the user clicks on this particular button, the user is redirected to a pre-populated form, visually showing the user the already saved doucment details (the key:value pairs) of that particular river. The user is then able to alter any, all or none of the fields as the user see's fit, and can submit the form to the server, updating the document on the database. There is also an option at the bottom of the form for the user to delete the document entirely. This is in the form of a red delete button. After submit or delete, the user is redirected back to the home page, where they can visually the evidence of what they have added / deleted, appear/not appear on the river table.
-
-Add new river - The user is redirected to a seperate page, where they can populate a form and submit their info to the database. After submit, the user is redirected back to the home page, where they can visually the evidence of what they have added, appear on the river table.
-
-Review a river - The user is redirected to a seperate page, where they can populate a form and submit their review on a particular river to the database. The form has been setup in such a way, that the reviewer can only submit a review on a river that is in the river database. This ensures that relevant reviews are only left. The review is displayed on the Read reviews page and the review itself is saved in a seperate collection in the database. The river database (river_names) and the review database (river_reviews) share a foreign key: river_name.
+<p>Button "Edit" - This button is found in the accordion with hex color: #004d40 teal darken-4.</p>
+<p>Button "Delete/Del" - This button is found in the accordion with hex color: #26a69a teal lighten-1.</p>
+<p>Buttons Add Category and Add Word - These buttons are found Add Word and Manage Category pages. Button colors: #004d40 teal darken-4.</p>
+<p>Form - The forms are taken from materialize and contain input fields and category dropdown. Forms are found at Add Word page and Manage Category page.</p>
 
 Features Left to Implement
 Authentication would be a nice feature to implement, as it would ensure data that is added is more authentic and less inclined to be spam.
