@@ -1,14 +1,13 @@
 <p><h1>Milestone 3 for Code Institute - A database web application.</h1><p>
 <p><strong>MiDev Glossary</strong> app offers users such as professionals like Project Managers or Product Owners the possibility to understand their development teams better.</p>
 
-**UX**
-Users can add/ edit words, also add/edit categories. Very often abbreviations are used within development teams and this app helps Managers to gather what they hear and also use this app as an internal dictionary. Developers, Designers, Marketing specialists also have a chance to help the team and create a better way of working.
+<h2>UX</h2>
+Very often abbreviations are used within development teams and this app helps Managers to gather what they hear and also use this app as an internal dictionary. Developers, Designers, Marketing specialists also have a chance to help the team and create a better way of working. Users can add/edit words, also add/edit categories, they can search words and navigate according to the alphabet.
 
-User Stories:
-As a new User to the web application, I want to:
-
-be able to understand how to navigate around the web application.
-be able to find information about a particular river in County Kerry.
+<h2>User Stories</h2>
+As a new User I would like to:
+<li>be able to understand how to navigate around the web application.</li>
+<li>be able to find information about a particular river in County Kerry.</li>
 to be able to update a particular river's information if I believe it to be inaccurate, incorrect or outdated.
 leave a review about a particular river, which is both informative and allows me to broadcast my own opinion.
 Wireframes:
