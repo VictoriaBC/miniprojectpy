@@ -29,6 +29,7 @@ As a new User I would like to:
 <li>Primary button color: #004d40 teal darken-4</li>
 <li>Secondary button color: #26a69a teal lighten-1</li>
 <li>Header and Footer color: #004d40 teal darken-4</li>
+<img src="https://github.com/VictoriaBC/miniprojectpy/blob/master/tmfmdb/static/img/Screen%20Shot%202020-07-09%20at%2023.01.38.png">
 
 <h3>Buttons</h3>
 <p>Buttons in this application are from component library <a href="https://materializecss.com/">Materialize</a>.</p>
@@ -43,71 +44,59 @@ As a new User I would like to:
 <p>Buttons Add Category and Add Word - These buttons are found Add Word and Manage Category pages. Button colors: #004d40 teal darken-4.</p>
 <p>Form - The forms are taken from materialize and contain input fields and category dropdown. Forms are found at Add Word page and Manage Category page.</p>
 
-Features Left to Implement
-Authentication would be a nice feature to implement, as it would ensure data that is added is more authentic and less inclined to be spam.
-Add additional fields to the river_names database, such a location, additonal info regarding purchase of permits, and links to accomidations / fishing tackle shops, etc.
-A "fish caught" record, to display anglers achievements on particular rivers.
-A graphical representation of the most popular rivers, as voted by visitors to the application.
-A .sort() applied to the route functions in app.py, so that displayed results show the most recently added at the top of the table (rivers & reviews)
-Main Technologies Used
-This project uses Python, HTML, CSS and Javascript programming languages.
-Tools used
-Visual Studio Code by Microsoft - This was used as the IDE for building the application. This was my first time using a local IDE.
-GitHub to store the project code remotely.
-PIP for installation of tools needed in this project.
-Git to handle version control.
-Other technologies / libraries used:
-Jinja to simplify displaying data from the backend of this project smoothly and effectively in html.
-PyMongo - A Python distribution containing tools for working with MongoDB.
-Bootstrap 4.3.1 - The project uses Bootstrap 4 to simplify the structure of the website and make the website responsive easily. https://getbootstrap.com/
-Fontawesome - Used to provide icons from FontAwesome throughtout the site. https://fontawesome.com/
-Google Fonts - The project uses Google fonts to style the website fonts. https://fonts.google.com/
-AutoPrefixer - This project used AutoPrefixer to make sure the css code is valid for all browsers. https://autoprefixer.github.io/
-Testing
-User Testing
-Manual User testing:
-This was the primary method of testing the application. People were asked to visit the website on a variety of devices, and to enter information to the database. This feedback was very uselful to determine any bugs that may have been present. I also tested the app manually myself on a varietly of browsers.
+<h3>Features Left to Implement</h3>
+<li>Authentication</li>
+<li>Login and Register</li>
+<li>Images</li>
 
-Below are the list of Internet Browsers that were used to test the display of the website:
-Google Chrome (Version 77.0)
-Chrome Lighthouse was used to audit the website.
-Mozilla Firefox (Version 69.0)
-Microsoft Edge (Version 44.1)
-Internet Explorer 11 (Version 11.8)
-Manual testing was carried out using the above browsers. No bugs or desplay issues could be identified.
+<h3>Main Technologies Used</h3>
+For this project I used Python, HTML, CSS, Sass and Javascript programming languages.
 
-Below are the list of websites I used to test the HTML, CSS and JS code:
-W3C HTML Validator This is a HTML online validitor.
-W3C CSS Validator This is a CSS online validitor.
-CSS Lint CSS Lint is an open source CSS code quality tool I used.
-Meeting the needs of the user stories (as described in the UX section of this README file)
-As a new User to the web application, I want to be able to understand how to navigate around the web application.
-Upon landing on the home page, the user is greeted with a jumbotron welcome text, imediately followed below by the subject of the application: The Data Table. The user doesn't have to go searching for it, as it's right there. Navigation comes from the Navigation Bar at the top of the page. The Logo, when clicked, will redirect the user back to the home page. The rest of the Nav Bar items are positioned on the right hand side. They visually tell the user exactly what they can do. Each item, when clicked, redirects the user to a seperate page where the desired action can occur.
+<h3>Tools used</h3>
+<li>Used Heroku for uploading the app and Mongo DB for keeping database.</li>
+<li>PIP3 for installation of tools needed in this project.</li>
+<li>Github to handle version control</li>
+<li>Gitpod to code</li>
 
-As a new User to the web application, I want to be able to add additional information to the river database...
-Under "Add a new River" on the Nav Bar, the user will be redirected to a new page where the user can add a new document to the collection in the database.
+<h3>Other technologies and libraries used:</h3>
+<li>Jinja to simplify data displaying from the backend.</li>
+<li>PyMongo - containing tools for working with MongoDB.</li>
+<li>Materialize for components and to make the website responsive easily. https://materializecss.com/
+<li>Fontawesome to provide icons from it's library. https://fontawesome.com/</li>
+<li>Google Fonts to easily use simple and recognizable fonts on the internet https://fonts.google.com/.</li>
 
-As a new User to the web application, I want to be able to update a particular river's information if I believe it to be inaccurate, incorrect or outdated.
-On the data-table displayed on the home page, there is a blue button in the first row. As explained on the welcome message on the top of the home page, when this button is clicked for that particular river, the user is redirected to a new page, where a pre-polulated form is, and the user can edit and make changes to this river record. At this point, there is also an option to delete the document entirely from the collection, in the form of a red button at the bottom of the form.
+<h3>Testing</h3>
+<li>User Testing - people were are asked to visit the app and test. REason is to collect feedback and improve the app.</li>
+<li>Tested browser lists: Google Chrome, Chrome Lighthouse for audit of website, Safari.</li>
 
-As a new User to the web application, I want to leave a review about a particular river, which is both informative and allows me to broadcast my own opinion.
-"Review a River" is an item on the Nav Bar. Once clicked, the user is brought to a new page, where, via a form, they can leave a review about a particular river in the database. Once the review is submitted, the user can view what they have posted to the database on the "Read Reviews" page. Other users can also view this page, providing insight and knowledge from other users.
+<h3>HTML, CSS and JS code</h3>
+<li>W3C HTML Validator.</li>
+<li>W3C CSS Validator.</li>
+<li>Pep8online to test app.py</li>
 
-Deployment
-Local Deployment
-This project was developed using the Visual Studio Code IDE, committed to git and pushed to GitHub using the built in function within Visual Studio Code.
+<h3>Meeting the needs of the user stories (described  earlier in the UX section of this README file)</h3>
+<li>
+<p>As a new User I want to be able to understand how to navigate around the web application.</p>
+<p>On landing page, the user is welcomed with a welcome text and information about this app, imediately followed below by search, alphabet navigation and common glossary.</p> 
+<p>Navigation in the header at the top of the page. The Logo, when clicked, redirects the user to Landing page</p>
+</li>
 
-The GitHub Repository is here: https://github.com/haydal810/Milestone-Project-3 The application is live here: https://kerry-rivers-ms3.herokuapp.com/
+<li>
+<p>As a user I would like to be able to add words, edit them and also add, edit categories.</p>
+</li>
 
-To deploy this project on your own IDE, folow the steps below:
+<li>
+<p>As a user I would like this application to be responsive.</p>
+</li>
 
-Firstly, ensure of the following: - You have an IDE, such as VS Code - The following must be installed locally on your computer: - git - PIP - Python 3 - Flask - A MongoDB Atlas account
+<h3>Deployment</h3>
+<p>heroku - git - PIP - Python 3 - Flask - A MongoDB Atlas account</p>
 
-Instructions for Installation:
+<h3></h3>Instructions for Installation</h3>
 
-Make your own folder and navigate to it on the terminal. Then enter the following in the terminal:
-$ git clone https://github.com/haydal810/Milestone-Project-3.git
-$ pip install --upgrade pip
+<p>Make your folders and navigate to it on the terminal. Enter the following in the terminal:</p>
+<li>$ git clone https://github.com/haydal810/Milestone-Project-3.git</li>
+<li>$ pip3 install </li>
 $ pip install -r requirements.txt
 To run the app locally:
 $ python -m flask run
