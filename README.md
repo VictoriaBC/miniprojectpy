@@ -1,4 +1,4 @@
-<p><h1>My 3rd Milestone Project for Code Institute - A database web application.</h1><p>
+<p><h1>Milestone 3 for Code Institute - A database web application.</h1><p>
 
 **MiDev Glossary**
 This app offers users such as professionals like Project Managers or Product Owners the possibility to understand their development teams better.
