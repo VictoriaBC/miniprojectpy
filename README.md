@@ -95,7 +95,7 @@ For this project I used Python, HTML, CSS, Sass and Javascript programming langu
 <h3></h3>Instructions for Installation</h3>
 
 <p>Make your folders and navigate to it on the terminal. Enter the following in the terminal:</p>
-<li>$ git clone https://github.com/haydal810/Milestone-Project-3.git</li>
+<li>$ git clone https://github.com/VictoriaBC/miniprojectpy</li>
 <li>$ pip3 install </li>
 $ pip install -r requirements.txt
 To run the app locally:
